@@ -1,1 +1,1 @@
-playing with astro for the first time in a years.
+This project is a simple Astro-based web application, showcasing the use of reusable components to display a series of cards with different titles and authors.
