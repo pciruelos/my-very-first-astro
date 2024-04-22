@@ -1,0 +1,17 @@
+---
+const {title, author} = Astro.props
+---
+<div class="card">
+    <h1>Hello {title}</h1>
+    <h5>writed by: {author}</h5>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error perferendis aliquid magni, ea quaerat accusantium aperiam nihil commodi atque architecto similique recusandae modi provident pariatur dignissimos quis veniam esse veritatis?</p>
+</div>
+<style>
+    .card {
+        padding: 10px;
+        border: 4px solid lightblue;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+    }
+</style>
